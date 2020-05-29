@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    <title>Simple Kanban Board</title>
+</head>
+<body>
+    <script>
+        l/**et storys = [
+            {
+            name: 'Study Deno.js',
+            status: 'todo'
+            },
+            {
+            name: 'Play 171',
+            status: 'doing'
+            },
+            {
+            name: 'Send an e-mail',
+            status: 'done'
+            }
+        ];
+
+        const drop_todo = document.getElementById('todo');
+        storys.forEach( story => {
+            const card = document.createElement('div');
+            const
+            if(story.status == 'todo')
+            
+                drop_todo.appendChild();
+        });**/
+    </script>
+    <div class="boards">
+        <div class="board">
+            <h3>To Do</h3>
+            <div class="dropzone" id="todo">
+                <div class="card" draggable="true">
+                    <div class="status green"></div>
+                    <div class="content">Study Deno.js</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <h3>Doing</h3>
+            <div class="dropzone" id="doing">
+                <div class="card" draggable="true">
+                    <div class="status blue"></div>
+                    <div class="content">Play 171</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <h3>Done</h3>
+            <div class="dropzone" id="done">
+                <div class="card" draggable="true">
+                    <div class="status red"></div>
+                    <div class="content">Send an e-mail</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
